@@ -1,0 +1,14 @@
+{
+  "name": "tigergraph-skills",
+  "version": "0.1.0",
+  "description": "133 Agent Skills for TigerGraph Savanna, Cloud Classic, and Enterprise",
+  "main": "scripts/banner.js",
+  "bin": {
+    "tigergraph-skills": "scripts/banner.js"
+  },
+  "scripts": {
+    "postinstall": "node scripts/banner.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
